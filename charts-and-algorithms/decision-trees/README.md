@@ -14,7 +14,7 @@ Each decision path, therefore, represents a different potential sequence of even
 
 Each decision path in a decision tree will either lead to another decision, requiring further branching, or to a final action, marking the end of that particular path. This hierarchical structure makes decision trees useful for a variety of applications, from software development to business management and even artificial intelligence.
 
-<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption><p>Horizontal Layout</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption><p>Horizontal Layout</p></figcaption></figure>
 
 In software engineering, decision trees are often used in designing algorithms, particularly those involving conditional logic, such as in game development or user interface design. By mapping out each possible decision and its subsequent actions, decision trees help developers anticipate and plan for all possible scenarios, ensuring that their software behaves as expected under different conditions.
 
@@ -22,5 +22,4 @@ Decision trees are not only useful for making decisions but also serve as valuab
 
 Additionally, decision trees can be used as a training tool, helping new team members quickly grasp the logic and flow of the software they are working on. Overall, decision trees are powerful tools in software engineering, providing a structured approach to decision-making and a clear, visual way to represent complex logic.
 
-<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption><p>Vertical Layout</p></figcaption></figure>
-
+<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption><p>Vertical Layout</p></figcaption></figure>

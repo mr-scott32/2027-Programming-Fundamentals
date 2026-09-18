@@ -8,9 +8,9 @@ You need to create a structure chart which shows **the main routine (main() func
 
 ## Example
 
-The following is an example of the rock collection system (not a real API by the way - but it serves for an example of what your system may look like).&#x20;
+The following is an example of the rock collection system (not a real API by the way - but it serves for an example of what your system may look like).
 
-<figure><img src="../../../.gitbook/assets/image (58).png" alt=""><figcaption><p>Example of a Rock Collection System with all subroutines and API Request</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (47).png" alt=""><figcaption><p>Example of a Rock Collection System with all subroutines and API Request</p></figcaption></figure>
 
 ### Battleship
 
@@ -30,8 +30,8 @@ How do we structure it? What functions / subroutines do we need to include? Are 
   * CPU turn - subroutine for CPU's turn
     * Must return player grid as parameter
   * Check Win - subroutine to check if player has won
-    * Must return True/False (control variable)&#x20;
-  * Check Lose - subroutine to check if player has lost&#x20;
+    * Must return True/False (control variable)
+  * Check Lose - subroutine to check if player has lost
     * Must return True/False (control variable)
 
 ## Need More Information?

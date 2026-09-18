@@ -22,8 +22,6 @@ DFDs facilitate a top-down design approach by breaking down a system into increa
 
 <figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>DFD for a Voting System</p></figcaption></figure>
 
-
-
 ## System Scope & Boundaries (Level 0 DFD)
 
 Context Diagrams, or Level 0 Data Flow Diagrams, depict the entire system as a single process, focusing on the data inputs from and outputs to the external environment, without detailing internal processes.
@@ -36,7 +34,7 @@ These diagrams highlight the sources (inputs) and destinations (outputs) of data
 
 Context diagrams serve as high-level views, showing how the system exchanges data with its environment, including users, other organisations, and systems, without delving into the system’s internal workings.
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption><p>Context Diagram (Level 0 DFD) of a Voting System</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption><p>Context Diagram (Level 0 DFD) of a Voting System</p></figcaption></figure>
 
 ## Further Explanation and Support
 
@@ -61,4 +59,3 @@ Example: YouTube Context and DF Diagram
 {% embed url="https://www.youtube.com/watch?index=6&list=PLyH7UFQzuDWekJIt3TEzDtE-TORqGkz_r&v=aY-BRagWGN0" %}
 Example: Red Light Camera
 {% endembed %}
-

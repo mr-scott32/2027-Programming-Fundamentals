@@ -39,6 +39,6 @@ coverHeight: 245
 * I can design effective software solutions to solve identified problems.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
 We're going to create the classic **Battleship** board game using Python, or **another grid-based game of your choosing.**

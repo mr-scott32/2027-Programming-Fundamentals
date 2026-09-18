@@ -16,11 +16,11 @@ Structure charts are read top-to-bottom for hierarchy and left-to-right for exec
 
 ## Symbols
 
-<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
 ## Example 1
 
-<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption><p>Example of a Library Management System</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption><p>Example of a Library Management System</p></figcaption></figure>
 
 Further detail for each of the lower-level subroutines can be shown in a separate structure chart, using the same name as the subroutine used in the main structure chart. This method of providing successively more detail as required is known as refinement.
 
@@ -30,7 +30,7 @@ The following is a **very simple** example to show you how this might look with 
 
 To make it easy, the 'subroutines' of a Python program are simply functions within `main()`.
 
-<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption><p>Simple Example with Python Code</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption><p>Simple Example with Python Code</p></figcaption></figure>
 
 ## Further Examples and Support
 
@@ -41,4 +41,3 @@ Introduction to Structure Charts
 {% embed url="https://www.youtube.com/watch?t=&v=1OfQ9f9-G7E" %}
 Structure Chart Example - Streaming Software
 {% endembed %}
-

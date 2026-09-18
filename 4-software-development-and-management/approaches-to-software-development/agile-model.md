@@ -7,26 +7,24 @@ coverY: 0
 
 # Agile Model
 
-Agile development has emerged in response to the ‘ad-hoc’ reality of many software development projects. This approach places emphasis on the team developing the system rather than following the pre-defined structured development stages. Agile methods remove the need for detailed requirements and complex design documentation. Rather, they encourage cooperation and teamwork.&#x20;
+Agile development has emerged in response to the ‘ad-hoc’ reality of many software development projects. This approach places emphasis on the team developing the system rather than following the pre-defined structured development stages. Agile methods remove the need for detailed requirements and complex design documentation. Rather, they encourage cooperation and teamwork.
 
 Agile methods are particularly well suited to user-centred software development and software applications that are modified regularly such that they evolve and are updated over time. Many mobile apps are developed using this approach. This can be seen in the frequency of updates and the nature of app development itself.
 
-<figure><img src="../../.gitbook/assets/image (26).png" alt="" width="375"><figcaption><p>The Agile Method - a more iterative approach to development</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24).png" alt="" width="375"><figcaption><p>The Agile Method - a more iterative approach to development</p></figcaption></figure>
 
-Agile development is characterised by small teams of developer. It is preferable for one team member to be a knowledgeable and experienced user. Small teams are better able to share ideas and work on solutions together. Larger teams tend to break into smaller groups – for agile methods to be a success everyone must be an equal member with a clear shared purpose. Often the team members are multi-skilled so all are actively contributing.&#x20;
+Agile development is characterised by small teams of developer. It is preferable for one team member to be a knowledgeable and experienced user. Small teams are better able to share ideas and work on solutions together. Larger teams tend to break into smaller groups – for agile methods to be a success everyone must be an equal member with a clear shared purpose. Often the team members are multi-skilled so all are actively contributing.
 
-Typical characteristics of an agile software development approach include:&#x20;
+Typical characteristics of an agile software development approach include:
 
-* **Agility:** Speed of getting a working solution to market or to users. Basic functionality is included initially so operational software can be released as soon as possible.&#x20;
-* **Adaptive:** Interaction within the team and users which allows the solution to be selectively refined throughout the development process.&#x20;
-* **Progressive:** Working versions of the software are regularly delivered. Each version adds the next most important functions.&#x20;
+* **Agility:** Speed of getting a working solution to market or to users. Basic functionality is included initially so operational software can be released as soon as possible.
+* **Adaptive:** Interaction within the team and users which allows the solution to be selectively refined throughout the development process.
+* **Progressive:** Working versions of the software are regularly delivered. Each version adds the next most important functions.
 * **Collaborative:** The development team and clients collaborate closely throughout the development. Often a client representative or user is part of the team. The needs and ongoing feedback of the client and users drives the direction of the development.
 
 {% embed url="https://www.youtube.com/watch?t=129s&v=zi7uGg6FVM4" %}
 Agile Explained with Burgers
 {% endembed %}
-
-
 
 ### When is the Agile approach appropriate?
 
@@ -38,8 +36,6 @@ The following factors are likely to lead to an Agile approach:
 * **Fast feedback loops** allow for continuous improvement.
 * **Time-to-market is critical**, and teams release small updates quickly.
 * **User-centered development**, where features evolve based on customer feedback.
-
-
 
 ### **Example: Developing a Ride-Sharing App**
 

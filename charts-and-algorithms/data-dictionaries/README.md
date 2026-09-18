@@ -12,7 +12,7 @@ A database organises data in tables with rows (records) and columns (attributes)
 
 A data dictionary provides a comprehensive description of each variable stored or referred to in a system. This commonly includes variable name, data type, format, size in bytes, number of characters to display the item including number of decimal places (if applicable), the purpose of each variable and a relevant example. Any validation rules applicable to the data item can also be included.
 
-<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption><p>Data Dictionary from Course Specifications</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption><p>Data Dictionary from Course Specifications</p></figcaption></figure>
 
 {% hint style="warning" %}
 The above data dictionary is in the **expected format and is examinable.**
@@ -33,24 +33,23 @@ It defines the structure of the database in terms of the tables, columns, relati
 * **Foreign Keys**: Establish relationships between tables, linking each record in one table to one or more records in another.
 * **Constraints**: Rules applied to table columns to enforce data integrity, such as NOT NULL, UNIQUE, CHECK, etc.
 
-<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption><p>Data Schema for a Relational Database</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption><p>Data Schema for a Relational Database</p></figcaption></figure>
 
 ### Example of Database Tables
 
-The following is an example of database tables.&#x20;
+The following is an example of database tables.
 
 * Each **ROW** is a **RECORD**
-* Each **COLUMN** represents a **FIELD.**&#x20;
+* Each **COLUMN** represents a **FIELD.**
   * **Data Dictionaries** provide a **description** of each field, including data types and validation.
 * A **RECORD (ROW)** is made up of many **FIELDS (COLUMNS).**
 
-<figure><img src="../../.gitbook/assets/image (51).png" alt=""><figcaption><p>Database Tables</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption><p>Database Tables</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption><p>Database Schema</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption><p>Database Schema</p></figcaption></figure>
 
 {% hint style="warning" %}
-**BIG HINT:** Data dictionaries **are** relevant for your first **assessment task**. Data schemas **are not.**&#x20;
+**BIG HINT:** Data dictionaries **are** relevant for your first **assessment task**. Data schemas **are not.**
 
-**We will revisit databases in more detail in the HSC Course (Year 12).**&#x20;
+**We will revisit databases in more detail in the HSC Course (Year 12).**
 {% endhint %}
-

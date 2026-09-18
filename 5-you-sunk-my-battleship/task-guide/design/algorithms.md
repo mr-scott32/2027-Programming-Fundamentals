@@ -4,11 +4,11 @@ icon: book-open
 
 # Algorithms
 
-You will need to plan out your **main routine** and then **at least 2 subroutines** using flowcharts and pseudocode. You do **not** need to represent all subroutines from your structure chart, but **do** need to include them all in your **main routine.**&#x20;
+You will need to plan out your **main routine** and then **at least 2 subroutines** using flowcharts and pseudocode. You do **not** need to represent all subroutines from your structure chart, but **do** need to include them all in your **main routine.**
 
 ## Example: Rock Collection System
 
-<figure><img src="../../../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
 {% code title="Rock Collect Pseudocode" %}
 ```
@@ -76,8 +76,6 @@ END
 ```
 {% endcode %}
 
-
-
 {% code title="CreateBoard()" %}
 ```
 BEGIN CreateBoard
@@ -107,4 +105,3 @@ END CreateBoard
 {% content-ref url="../../../charts-and-algorithms/algorithms-flowcharts-pseudocode/" %}
 [algorithms-flowcharts-pseudocode](../../../charts-and-algorithms/algorithms-flowcharts-pseudocode/)
 {% endcontent-ref %}
-

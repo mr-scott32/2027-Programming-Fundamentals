@@ -36,4 +36,4 @@ A **use case** in software development is a structured description of how a user
 
 ## Example of a Use-Case Diagram (NOT required)
 
-<figure><img src="../../../.gitbook/assets/image (57).png" alt=""><figcaption><p>Example: Use Case Diagram</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (46).png" alt=""><figcaption><p>Example: Use Case Diagram</p></figcaption></figure>
