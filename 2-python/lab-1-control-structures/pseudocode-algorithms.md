@@ -218,3 +218,12 @@ BEGIN turns
 END turns
 ```
 
+### Videos
+
+If you are unsure or have not worked with pseudocode before, please look at the following videos for guidance:
+
+{% embed url="https://www.youtube.com/watch?v=xPvuJB33Fco" %}
+
+{% embed url="https://www.youtube.com/watch?v=Yw2Rxa6gfVg" %}
+
+{% embed url="https://www.youtube.com/watch?v=PbhfRF68GI4" %}

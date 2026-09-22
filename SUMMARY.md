@@ -26,7 +26,8 @@
 * [Lab 1 - Control Structures](2-python/lab-1-control-structures/README.md)
   * [Pseudocode Algorithms](2-python/lab-1-control-structures/pseudocode-algorithms.md)
   * [Activities](2-python/lab-1-control-structures/activities.md)
-* [Lab 2 - Functions](2-python/lab-2-functions.md)
+* [Lab 2 - Functions](2-python/lab-2-functions/README.md)
+  * [Pseudocode Algorithms](2-python/lab-2-functions/pseudocode-algorithms.md)
 
 ## 3 - Theory Content
 
