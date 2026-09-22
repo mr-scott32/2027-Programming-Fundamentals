@@ -76,7 +76,7 @@ ENDIF
 **Example Program**
 
 ```
-BEGIN player_movement 
+BEGIN
     READ keypress 
     IF keypress is W THEN 
         jump 
@@ -88,16 +88,14 @@ BEGIN player_movement
         crouch 
     ELSE stay_idle 
     ENDIF 
-END player_movement
+END
 ```
 
 #### 5. Loops (WHILE / REPEAT / FOR) - Iteration / Repetition <a href="#id-5.-loops-while-repeat-for-iteration-repetition" id="id-5.-loops-while-repeat-for-iteration-repetition"></a>
 
 **Pre-Test Loop - WHILE**
 
-Pre-test loops tesat the condition **before** the block of code runs, then continue to run until the condition is no longer true.
-
-<a class="button secondary">Copy</a>
+Pre-test loops test the condition **before** the block of code runs, then continue to run until the condition is no longer true.
 
 ```
 i = 0
@@ -109,13 +107,14 @@ ENDWHILE
 
 The above would display 0, 1, 2, 3, 4, but not 5 as it is a pre-test loop (once i is equal to 5, it stops won't run again).
 
-<a class="button secondary">Copy</a>
-
 ```
-WHILE lives > 0 DO
-    DISPLAY "Keep playing"
-    lives = lives - 1
-ENDWHILE
+BEGIN
+    lives = 3
+    WHILE lives > 0 DO
+        DISPLAY "Keep playing"
+        lives = lives - 1
+    ENDWHILE
+END
 ```
 
 In the above, once lives are 0 or less, the following code will not display "Keep playing", as the while loop will first check to see if lives are more than zero, then skip past the block once lives are 0 or less.
@@ -135,11 +134,13 @@ UNTIL i > 5
 The above would show 0, 1, 2, 3, 4, 5, as it is tested at the end of the loop, not at the start.
 
 ```
-lives = 3
-REPEAT
-    DISPLAY "Keep playing"
-    lives = lives - 1
-UNTIL lives <= 0
+BEGIN
+    lives = 3
+    REPEAT
+        DISPLAY "Keep playing"
+        lives = lives - 1
+    UNTIL lives <= 0
+END
 ```
 
 In the above, the code effectively does the same thing, but will always run at least once. So even if lives are at 0 before the first runthrough, it will run.
@@ -204,14 +205,14 @@ END
 ```
 
 ```
-BEGIN turns
+BEGIN
     DISPLAY "You have 3 turns"
     FOR turn FROM 0 to 3 STEP 1
         DISPLAY "Have your turn"
-        Display turn, " turn(s) remaining."
+        DISPLAY turn + " turn(s) remaining."
     NEXT turn
     DISPLAY "No turns remaining."
-END turns
+END
 ```
 
 ### Videos
