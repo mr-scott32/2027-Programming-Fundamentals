@@ -47,10 +47,10 @@ SET score TO 0
 
 #### 3. Input and Output - Sequence <a href="#id-3.-input-and-output-sequence" id="id-3.-input-and-output-sequence"></a>
 
-Use `GET` to get info, and `DISPLAY` to show info.
+Use `READ` to get info from the user, and `DISPLAY` to show info to the user.
 
 ```
-GET name
+READ name
 DISPLAY "Welcome", name
 ```
 
@@ -58,7 +58,7 @@ DISPLAY "Welcome", name
 
 ```
 BEGIN 
-    GET age
+    READ age
     DISPLAY "You are", age, "old!"
 END
 ```
@@ -77,7 +77,7 @@ ENDIF
 
 ```
 BEGIN player_movement 
-    GET keypress 
+    READ keypress 
     IF keypress is W THEN 
         jump 
     ELSEIF keypress is A THEN 
@@ -114,7 +114,7 @@ The above would display 0, 1, 2, 3, 4, but not 5 as it is a pre-test loop (once 
 ```
 WHILE lives > 0 DO
     DISPLAY "Keep playing"
-    SUBTRACT 1 FROM lives
+    lives = lives - 1
 ENDWHILE
 ```
 
@@ -123,8 +123,6 @@ In the above, once lives are 0 or less, the following code will not display "Kee
 #### **Post-Test Loop - REPEAT**
 
 Post-test loops are a bit different. They will always run the code at least once, then test the condition at **the end of the block of code.** A REPEAT UNTIL loop actually runs until a condition BECOMES true.
-
-<a class="button secondary">Copy</a>
 
 ```
 i = 0
@@ -136,13 +134,11 @@ UNTIL i > 5
 
 The above would show 0, 1, 2, 3, 4, 5, as it is tested at the end of the loop, not at the start.
 
-<a class="button secondary">Copy</a>
-
 ```
 lives = 3
 REPEAT
     DISPLAY "Keep playing"
-    SUBTRACT 1 FROM lives
+    lives = lives - 1
 UNTIL lives <= 0
 ```
 
@@ -186,7 +182,7 @@ The above would output **Level 1, Level 2, Level 3,** as the value starts at 1, 
 BEGIN platformer_game
     SET lives to 3
     WHILE health > 0 DO
-        GET keypress
+        READ keypress
         IF keypress is W THEN
             jump
         ELSEIF keypress is A THEN
@@ -200,7 +196,7 @@ BEGIN platformer_game
         ENDIF
     
         IF player_overlaps_spikes THEN
-            SUBTRACT 1 FROM lives
+            lives = lives - 1
         ENDIF
     ENDWHILE
     DISPLAY "You lost all 3 lives, you lose!"

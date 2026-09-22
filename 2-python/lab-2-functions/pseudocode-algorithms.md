@@ -56,7 +56,7 @@ END player_movement
 BEGIN    
     SET lives to 3
     WHILE health > 0 DO
-        GET keypress
+        READ keypress
         player_movement(keypress)
         IF player_overlaps_spikes THEN
             SUBTRACT 1 FROM health
