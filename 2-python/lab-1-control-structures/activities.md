@@ -6,6 +6,8 @@ icon: clipboard-list-check
 
 You will need to clone the following GitHub repository using 'Use this Template', then clone it to your PC in GitHub Desktop.
 
+{% embed url="https://github.com/mr-scott32/Lab-1-Control-Structures" %}
+
 In each Python file, you must:
 
 1. Read through the scenario in the comments.
