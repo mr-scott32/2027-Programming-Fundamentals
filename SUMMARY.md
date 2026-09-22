@@ -25,6 +25,7 @@
     * [Activities](2-python/data-structures-and-file-management/file-handling/activities.md)
 * [Lab 1 - Control Structures](2-python/lab-1-control-structures/README.md)
   * [Pseudocode Algorithms](2-python/lab-1-control-structures/pseudocode-algorithms.md)
+  * [Python Syntax](2-python/lab-1-control-structures/python-syntax.md)
   * [Flowcharts](2-python/lab-1-control-structures/flowcharts.md)
   * [Activities](2-python/lab-1-control-structures/activities.md)
 * [Lab 2 - Functions](2-python/lab-2-functions/README.md)

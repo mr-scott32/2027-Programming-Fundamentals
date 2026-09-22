@@ -151,15 +151,13 @@ A counted loop will run for a certain amount of time. This is useful when going 
 
 How they work is they have a range (let's see from 0 to 3) and an **iterator variable** (often just declared as 'i'), which gets added to (i.e. iterates) after the code is run each time. Once iterator variable ('i' for instance) reaches the end of the range, the loop ends.
 
-As we mostly use Python at this school, we'll call this a **pre-test loop** - it gets tested BEFORE each time the code runs.
-
 ```
 FOR i = 0 TO 5 STEP 1
     DISPLAY i
 NEXT i
 ```
 
-For the above, the output would be 0, 1, 2, 3, 4, but not 5, as it is pre-test - once i becomes 5, it goes back to start, checks the condition, and confirms that 5 is at the end of the range. As the STEP is 1, i increases by 1 every time the loop is run. But what if we set this higher...
+For the above, the output would be 0, 1, 2, 3, 4 and 5 - in our Pseudocode, we **INCLUDE** the **END VALUE** of our range (5 in this case). As the STEP is 1, i increases by 1 every time the loop is run. But what if we set this higher...
 
 ```
 FOR i = 0 TO 5 STEP 2
@@ -175,7 +173,7 @@ FOR level = 1 TO 4 STEP 1
 NEXT level
 ```
 
-The above would output **Level 1, Level 2, Level 3,** as the value starts at 1, not 0.
+The above would output **Level 1, Level 2, Level 3, Level 4,** as the value starts at 1, not 0.
 
 **Example Programs**
 
