@@ -8,7 +8,7 @@ icon: book-open
 
 Here's an example of a pseudocode algorithm and flowchart going over an array. Even though the same course specifications state that flowcharts are generally not used for anything other than control structures, they included one anyway:
 
-<figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+<div align="left"><figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Pseudocode Conventions
 
