@@ -30,6 +30,9 @@
 * [Lab 2 - Functions](2-python/lab-2-functions/README.md)
   * [Pseudocode Algorithms](2-python/lab-2-functions/pseudocode-algorithms.md)
   * [Activities](2-python/lab-2-functions/activities.md)
+* [Lab 3 - Data Structures](2-python/lab-3-data-structures/README.md)
+  * [Types of Data Structures](2-python/lab-3-data-structures/types-of-data-structures.md)
+  * [Pseudocode Algorithms](2-python/lab-3-data-structures/pseudocode-algorithms.md)
 
 ## 3 - Theory Content
 
@@ -43,6 +46,7 @@
   * [Waterfall Model](4-software-development-and-management/approaches-to-software-development/waterfall-model.md)
   * [Agile Model](4-software-development-and-management/approaches-to-software-development/agile-model.md)
   * [Summary: Waterfall vs Agile](4-software-development-and-management/approaches-to-software-development/summary-waterfall-vs-agile.md)
+  * [WAgile?](4-software-development-and-management/approaches-to-software-development/wagile.md)
   * [Activities](4-software-development-and-management/approaches-to-software-development/activities.md)
 * [Software Development Steps](4-software-development-and-management/software-development-steps/README.md)
   * [Sample Exam Question](4-software-development-and-management/software-development-steps/sample-exam-question.md)
