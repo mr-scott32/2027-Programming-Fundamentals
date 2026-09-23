@@ -30,7 +30,7 @@
   * [Activities](2-python/lab-1-control-structures/activities.md)
 * [Lab 2 - Functions](2-python/lab-2-functions/README.md)
   * [Pseudocode Algorithms](2-python/lab-2-functions/pseudocode-algorithms.md)
-  * [Pseudocode Algorithms](2-python/lab-2-functions/pseudocode-algorithms-1.md)
+  * [Python Syntax](2-python/lab-2-functions/python-syntax.md)
   * [Activities](2-python/lab-2-functions/activities.md)
 * [Lab 3 - Data Structures](2-python/lab-3-data-structures/README.md)
   * [Types of Data Structures](2-python/lab-3-data-structures/types-of-data-structures.md)
