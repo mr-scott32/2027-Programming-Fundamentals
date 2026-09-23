@@ -121,7 +121,7 @@ In the above, the code effectively does the same thing, but will always run at l
 
 A counted loop will run for a certain amount of time. This is useful when going over a list / array of items. For now, let's just think in terms of running a certain number of times.
 
-How they work is they have a range (let's see from 0 to 3) and an **iterator variable** (often just declared as 'i'), which gets added to (i.e. iterates) after the code is run each time. Once iterator variable ('i' for instance) reaches the end of the range, the loop ends.
+How they work is they have a range (let's say from 0 to 5) and an **iterator variable** (often just declared as 'i'), which gets added to (i.e. iterates) after the code is run each time. Once iterator variable ('i' for instance) reaches the end of the range, the loop ends.
 
 ```python
 for i in range(5)
@@ -131,54 +131,57 @@ for i in range(5)
 For the above, the output would be 0, 1, 2, 3, 4, but not 5, as it is pre-test - once i becomes 5, it goes back to start, checks the condition, and confirms that 5 is at the end of the range. As the STEP is 1, i increases by 1 every time the loop is run. But what if we set this higher...
 
 ```py
-for i in range(5):
-    i+=1
+for i in range(0, 5, 2): #1st number is start of range, 2nd is end of range, 3rd is step
+    print(i)
 ```
 
 The above would output 0, 2, 4, as i is increasing by TWO each time.
 
-```
-FOR level = 1 TO 4 STEP 1
-    DISPLAY "Level", level
-NEXT level
+```python
+for level in range (1, 4): #We can start from 1 in the range.
+  print(f'Level {level}')
+  
+  """Remember, to display Level 3 in Python, we had to set the range to 4 as 
+  Python for loops EXCLUDE the end of range value"""
 ```
 
 The above would output **Level 1, Level 2, Level 3,** as the value starts at 1, not 0.
 
 **Example Programs**
 
-```
-BEGIN platformer_game
-    SET lives to 3
-    WHILE health > 0 DO
-        READ keypress
-        IF keypress is W THEN
-            jump
-        ELSEIF keypress is A THEN
-            move_left
-        ELSEIF keypress is D THEN
-            move_right
-        ELSEIF keypress is S THEN
-            crouch
-        ELSE 
-            stay_idle
-        ENDIF
+```py
+lives = 3
+
+while lives > 0:
+
+    keypress = input('Enter W, A, D or S to move: ')
     
-        IF player_overlaps_spikes THEN
-            lives = lives - 1
-        ENDIF
-    ENDWHILE
-    DISPLAY "You lost all 3 lives, you lose!"
-END
-```
+    if keypress.lower() == 'w':
+        print('You jump') # These would be functions normally, but printing for show here.
+    elif keypress.lower() == 'a':
+        print('Move left')
+    elif keypress.lower() == 'd': 
+        print('Move right')
+    elif keypress.lower() == 's': 
+        print('Crouch')
+    else:
+        print('Stay idle')
+        
+    player_spikes = True #Just to test this out
+    
+    if player_spikes:
+        lives -= 1
+
+print("You lost all 3 lives, you lose!")
 
 ```
-BEGIN
-    DISPLAY "You have 3 turns"
-    FOR turn FROM 0 to 3 STEP 1
-        DISPLAY "Have your turn"
-        DISPLAY turn + " turn(s) remaining."
-    NEXT turn
-    DISPLAY "No turns remaining."
-END
+
+```py
+print("You have 3 turns")
+for turn in range(3, 0, -1): #We move from 3 down to 0, exclusive of end of range (0).
+    print("Have your turn")
+    print(f'{turn} turn(s) remaining.')
+
+print("No turns remaining.")
+
 ```

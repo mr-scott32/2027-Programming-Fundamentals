@@ -180,7 +180,7 @@ The above would output **Level 1, Level 2, Level 3, Level 4,** as the value star
 ```
 BEGIN platformer_game
     SET lives to 3
-    WHILE health > 0 DO
+    WHILE lives > 0 DO
         READ keypress
         IF keypress is W THEN
             jump
@@ -205,7 +205,7 @@ END
 ```
 BEGIN
     DISPLAY "You have 3 turns"
-    FOR turn FROM 0 to 3 STEP 1
+    FOR turn FROM 3 to 1 STEP -1
         DISPLAY "Have your turn"
         DISPLAY turn + " turn(s) remaining."
     NEXT turn
