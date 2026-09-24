@@ -84,3 +84,73 @@ The excursion risk is rated as:
 
 <div align="left"><figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure></div>
 
+{% code title="" %}
+```py
+risks = [1, 3, 5, 1, 1, 2, 1, 3, 2, 4]
+
+def risk_rating():
+    total = 0
+    index = 0 
+    while True:
+        total = total + risks[index]
+        index += 1
+        if index > 9:
+            break
+    if total > 35:
+        print('Rating = "High"')
+    elif total < 20:
+        print('Rating = "Low"')
+    else:
+        print('Rating = "Medium"')
+        
+risk_rating()
+```
+{% endcode %}
+
+#### If we wanted to avoid index out of range issues...
+
+Not required for the above HSC question, but if we did want to avoid issues if the list is shorter in Python...
+
+{% code title="" %}
+```py
+risks = [1, 3, 5, 1, 1, 2, 1, 3, 2, 4]
+
+def risk_rating():
+    total = 0
+    index = 0 
+    while True:
+        total = total + risks[index]
+        index += 1
+        if index > len(risks) - 1: # Will break once we reach end of range, even if shorter
+            break
+    if total > 35:
+        print('Rating = "High"')
+    elif total < 20:
+        print('Rating = "Low"')
+    else:
+        print('Rating = "Medium"')
+        
+risk_rating()
+```
+{% endcode %}
+
+#### Normally in Python we'd avoid doing a post-test loop too, so...
+
+{% code title="" %}
+```py
+risks = [1, 3, 5, 1, 1, 2, 1, 3, 2, 4]
+
+def risk_rating():
+    total = 0
+    for rating in risks: # Python lets us loop through lists like this
+        total = total + rating
+    if total > 35:
+        print('Rating = "High"')
+    elif total < 20:
+        print('Rating = "Low"')
+    else:
+        print('Rating = "Medium"')
+        
+risk_rating()
+```
+{% endcode %}
