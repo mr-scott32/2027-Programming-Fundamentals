@@ -35,6 +35,8 @@
 * [Lab 3 - Data Structures](2-python/lab-3-data-structures/README.md)
   * [Types of Data Structures](2-python/lab-3-data-structures/types-of-data-structures.md)
   * [Pseudocode Algorithms](2-python/lab-3-data-structures/pseudocode-algorithms.md)
+  * [File Handling](2-python/lab-3-data-structures/file-handling/README.md)
+    * [Loops, Lists, Dictionaries](2-python/lab-3-data-structures/file-handling/loops-lists-dictionaries.md)
   * [Activities](2-python/lab-3-data-structures/activities.md)
 
 ## 3 - Theory Content
