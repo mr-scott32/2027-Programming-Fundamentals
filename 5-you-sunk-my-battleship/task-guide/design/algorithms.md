@@ -102,6 +102,6 @@ END CreateBoard
 
 ## Need More Information?
 
-{% content-ref url="../../../charts-and-algorithms/algorithms-flowcharts-pseudocode/" %}
-[algorithms-flowcharts-pseudocode](../../../charts-and-algorithms/algorithms-flowcharts-pseudocode/)
+{% content-ref url="../../../3-theory-content/charts-and-algorithms/algorithms-flowcharts-pseudocode/" %}
+[algorithms-flowcharts-pseudocode](../../../3-theory-content/charts-and-algorithms/algorithms-flowcharts-pseudocode/)
 {% endcontent-ref %}

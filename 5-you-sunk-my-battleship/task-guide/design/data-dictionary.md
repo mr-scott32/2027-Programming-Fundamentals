@@ -4,11 +4,11 @@ icon: book-open
 
 # Data Dictionary
 
-Finally, we need to know what data our system is actually going to store. This could be in a Pandas dataframe, a dictionary, or just whatever format it comes in from your API. We need to know this before we start programming because we need a sense of what rules the data will need to follow.&#x20;
+Finally, we need to know what data our system is actually going to store. This could be in a Pandas dataframe, a dictionary, or just whatever format it comes in from your API. We need to know this before we start programming because we need a sense of what rules the data will need to follow.
 
-Otherwise, your shall we say... less than tech savvy users will cause error after error after error. Never underestimate an end user - they can and will break the rules!&#x20;
+Otherwise, your shall we say... less than tech savvy users will cause error after error after error. Never underestimate an end user - they can and will break the rules!
 
-So, let's be specific with the data types and validation so we know how to stop this.&#x20;
+So, let's be specific with the data types and validation so we know how to stop this.
 
 ## Example
 
@@ -18,9 +18,6 @@ Here's a **data dictionary** for storing rock data in the Rock Collection Progra
 
 ## Need More Information?
 
-{% content-ref url="../../../charts-and-algorithms/data-dictionaries/" %}
-[data-dictionaries](../../../charts-and-algorithms/data-dictionaries/)
+{% content-ref url="../../../3-theory-content/data-dictionaries/" %}
+[data-dictionaries](../../../3-theory-content/data-dictionaries/)
 {% endcontent-ref %}
-
-
-

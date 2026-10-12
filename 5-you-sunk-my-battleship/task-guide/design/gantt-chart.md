@@ -12,8 +12,6 @@ You will need to complete a **Gantt Chart** for your project. This must display 
 
 <figure><img src="../../../.gitbook/assets/Gantt chart.png" alt=""><figcaption><p>Rock Collection System Gantt Chart</p></figcaption></figure>
 
-
-
 If you would like to create a similar one to the above, you can use this template from **Lucid Chart:**
 
 {% embed url="https://lucid.app/lucidspark/editNew/5f2774e5-f51b-4ddf-a93b-da8380c648aa/" %}
@@ -34,7 +32,6 @@ You can use any of the above, as long as the **weeks, time markers and milestone
 
 ## Need More Information?
 
-{% content-ref url="../../../charts-and-algorithms/gantt-chart.md" %}
-[gantt-chart.md](../../../charts-and-algorithms/gantt-chart.md)
+{% content-ref url="../../../3-theory-content/charts-and-algorithms/gantt-chart.md" %}
+[gantt-chart.md](../../../3-theory-content/charts-and-algorithms/gantt-chart.md)
 {% endcontent-ref %}
-

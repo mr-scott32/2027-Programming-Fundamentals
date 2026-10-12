@@ -36,6 +36,6 @@ How do we structure it? What functions / subroutines do we need to include? Are 
 
 ## Need More Information?
 
-{% content-ref url="../../../charts-and-algorithms/structure-charts/" %}
-[structure-charts](../../../charts-and-algorithms/structure-charts/)
+{% content-ref url="../../../3-theory-content/charts-and-algorithms/structure-charts/" %}
+[structure-charts](../../../3-theory-content/charts-and-algorithms/structure-charts/)
 {% endcontent-ref %}
