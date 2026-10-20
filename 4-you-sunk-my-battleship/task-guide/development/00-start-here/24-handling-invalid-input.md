@@ -53,4 +53,4 @@ Your program should respond with an appropriate message rather than crashing.
 
 ***
 
-[← Previous: Checking For A Loss](23-checking-for-a-loss.md) | [Contents](./) | [Next: Bringing Everything Together →](25-bringing-everything-together.md)
+[← Previous: Checking For A Loss](23-checking-for-a-loss.md) | [Contents](./) | [Next: Bringing Everything Together →](../../integration/00-start-here/25-bringing-everything-together.md)

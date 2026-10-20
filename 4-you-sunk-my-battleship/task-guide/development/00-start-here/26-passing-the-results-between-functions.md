@@ -40,4 +40,4 @@ This is one of the most important ideas in the project:
 
 ***
 
-[← Previous: Bringing Everything Together](25-bringing-everything-together.md) | [Contents](./) | [Next: The Main Game Loop →](27-the-main-game-loop.md)
+[← Previous: Bringing Everything Together](../../integration/00-start-here/25-bringing-everything-together.md) | [Contents](./) | [Next: The Main Game Loop →](27-the-main-game-loop.md)

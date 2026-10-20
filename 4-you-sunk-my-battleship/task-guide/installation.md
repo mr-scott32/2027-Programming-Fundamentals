@@ -32,7 +32,7 @@ pip install -r requirements.txt
 {% hint style="info" %}
 ## **requests Module**
 
-Your program will most definitely require the `requests` library at the very least, as you need this module to make API calls.&#x20;
+Your program will most definitely require the `requests` library at the very least, as you need this module to make API calls.
 {% endhint %}
 
 </details>
@@ -66,15 +66,4 @@ To install the required dependencies, you can run:
 pip install -r requirements.txt
 ````
 
-
-
 </details>
-
-{% hint style="warning" %}
-## PROJECT\_DEVELOPMENT.md
-
-Add a code block for each of these files into your project documentation and add under the heading _**Installation.**_&#x20;
-{% endhint %}
-
-
-

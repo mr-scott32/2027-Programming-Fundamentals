@@ -34,4 +34,4 @@ The individual functions perform the jobs.
 
 ***
 
-[← Previous: Handling Invalid Input](24-handling-invalid-input.md) | [Contents](./) | [Next: Passing The Results Between Functions →](26-passing-the-results-between-functions.md)
+[← Previous: Handling Invalid Input](../../development/00-start-here/24-handling-invalid-input.md) | [Contents](../../development/00-start-here/) | [Next: Passing The Results Between Functions →](../../development/00-start-here/26-passing-the-results-between-functions.md)

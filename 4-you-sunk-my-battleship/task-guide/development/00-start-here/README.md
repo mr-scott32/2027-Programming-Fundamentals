@@ -1,4 +1,8 @@
-# Python Battleship
+---
+icon: anchor
+---
+
+# BattleshipTutorial
 
 ## A step-by-step programming tutorial
 
@@ -16,7 +20,7 @@ Whenever the next part of the game requires a new programming skill, you will:
 
 The aim is not to copy a completed program. The aim is to understand **why each part of the program is needed and how the parts work together.**
 
----
+***
 
 ## Contents
 
@@ -46,7 +50,7 @@ Work through these in order. Each file is one step.
 22. [Creating the CPU's Turn](22-creating-the-cpu-s-turn.md)
 23. [Checking for a Loss](23-checking-for-a-loss.md)
 24. [Handling Invalid Input](24-handling-invalid-input.md)
-25. [Bringing Everything Together](25-bringing-everything-together.md)
+25. [Bringing Everything Together](../../integration/00-start-here/25-bringing-everything-together.md)
 26. [Passing the Results Between Functions](26-passing-the-results-between-functions.md)
 27. [The Main Game Loop](27-the-main-game-loop.md)
 28. [Building `main()`](28-building-main.md)
@@ -58,6 +62,6 @@ Work through these in order. Each file is one step.
 34. [Final Challenge](34-final-challenge.md)
 35. [Final Checklist](35-final-checklist.md)
 
----
+***
 
 [Start: 1. Planning the Game →](01-planning-the-game.md)

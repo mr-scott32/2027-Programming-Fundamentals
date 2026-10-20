@@ -1,4 +1,5 @@
 ---
+hidden: true
 icon: book-open
 ---
 
@@ -61,6 +62,3 @@ def main():
             print('You lose :(')
             break
 ```
-
-
-

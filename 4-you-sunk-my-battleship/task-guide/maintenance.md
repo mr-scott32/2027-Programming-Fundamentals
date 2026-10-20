@@ -8,10 +8,9 @@ Almost there! We now just need to answer the following questions.
 
 ## Maintenance Questions
 
-1. **Explain** how you would handle issues caused by changes to the weather API over time.
-2. **Explain** how you would ensure the program remains compatible with new versions of Python and libraries like `requests` and `matplotlib`.
-3. **Describe** the steps you would take to fix a bug found in the program after deployment.
-4. **Outline** how you would maintain clear documentation and ensure the program remains easy to update in the future.
+1. **Explain** how you would ensure the program remains compatible with new versions of Python.
+2. **Describe** the steps you would take to fix a bug found in the program after deployment.
+3. **Outline** how you would maintain clear documentation and ensure the program remains easy to update in the future.
 
 {% hint style="warning" %}
 ## Describe
@@ -28,12 +27,10 @@ Almost there! We now just need to answer the following questions.
 {% endhint %}
 
 {% hint style="warning" %}
-## Outline&#x20;
+## Outline
 
 * Sketch in general terms; indicate the main features of.
 {% endhint %}
-
-
 
 ## Final Evaluation
 
@@ -53,4 +50,3 @@ Almost there! We now just need to answer the following questions.
 * Make a judgement based on criteria.
 * Determine the value of.
 {% endhint %}
-

@@ -19,6 +19,8 @@ icon: book
   * interfaces between functions
   * debugging output statements
   * debugging software available in an integrated development environment (IDE)
+* Analyse the logic and structure of written algorithms, including&#x20;
+  * desk checking and peer checking
 {% endhint %}
 
 {% hint style="success" %}
@@ -27,5 +29,5 @@ icon: book
 * I can compare and apply boundary value, path coverage and faulty and abnormal data testing.
 * I can identify, explain and fix syntax, logical and runtime errors.
 * I can use a range of debugging tools in a Python Integrated Development Environment (IDE)
+* I can use desk checking to accurately analyse the logic and structure of a written algorithm
 {% endhint %}
-
